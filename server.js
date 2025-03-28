@@ -19,7 +19,9 @@ app.use(hdlerror);
 readdirSync("./routes").map((e) => {
   return app.use("/api", require(`./routes/${e}`));
 });
-
+app.get("/", (req, res) => {
+  res.send("test");
+});
 const PORT = process.env.PORT || 5001;
 app.listen(PORT, () => {
   console.log(`Server Is Running on port ${PORT}`);
