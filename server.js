@@ -15,13 +15,14 @@ app.use(bodyParser.json({ limit: "5mb" }));
 
 app.use(hdlerror);
 //routes
+
 readdirSync("./routes").map((e) => {
   return app.use("/api", require(`./routes/${e}`));
 });
 
-const PORT = 5001;
+const PORT = process.env.PORT || 5001;
 app.listen(PORT, () => {
-  console.log("Server Is Running in port " + PORT);
+  console.log(`Server Is Running on port ${PORT}`);
 });
 
 module.exports = app;
