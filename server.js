@@ -20,7 +20,7 @@ readdirSync("./routes").map((e) => {
   return app.use("/api", require(`./routes/${e}`));
 });
 app.get("/", (req, res) => {
-  res.send("test");
+  res.send("interview Quiz");
 });
 const PORT = process.env.PORT || 5001;
 app.listen(PORT, () => {
