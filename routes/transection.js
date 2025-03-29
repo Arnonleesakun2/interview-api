@@ -5,9 +5,9 @@ const {
 } = require("../controllers/transection");
 const router = express.Router();
 
-//ENDPOINT http://localhost:5001/api/createtransection
+//ENDPOINT https://interview-api-2cgt.onrender.com/api/createtransection
 router.post("/createtransection", createTransection);
-//ENDPOINT http://localhost:5001/api/listtransection
+//ENDPOINT https://interview-api-2cgt.onrender.com/api/listtransection
 router.get("/listtransection", listTransection);
 
 module.exports = router;

@@ -2,10 +2,12 @@ const express = require("express");
 const { payOrder, listOrder ,readOrder} = require("../controllers/payment");
 const router = express.Router();
 
-//ENDPOINT http://localhost:5001/api/payorder
+//ENDPOINT https://interview-api-2cgt.onrender.com/api/payorder
 router.post("/payorder", payOrder);
-//ENDPOINT http://localhost:5001/api/listorder
+//ENDPOINT https://interview-api-2cgt.onrender.com/api/listorder
 router.get("/listorder", listOrder);
-//ENDPOINT http://localhost:5001/api/readorder
+//ENDPOINT https://interview-api-2cgt.onrender.com/api/readorder
 router.get("/readorder", readOrder);
+
+
 module.exports = router;

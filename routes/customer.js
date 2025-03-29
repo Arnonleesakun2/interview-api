@@ -9,16 +9,18 @@ const {
   addWallet
 } = require("../controllers/customer");
 
-//ENPOINT http://localhost:5001/api/createcustomer
+//ENPOINT https://interview-api-2cgt.onrender.com/api/createcustomer
 router.post("/createcustomer", createcustomer);
-//ENPOINT http://localhost:5001/api/listcustomer
+//ENPOINT https://interview-api-2cgt.onrender.com/api/listcustomer
 router.get("/listcustomer", listcustomer);
-//ENPOINT http://localhost:5001/api/readcustomer/id
+//ENPOINT https://interview-api-2cgt.onrender.com/api/readcustomer/id
 router.get("/readcustomer/:id", readcustomer);
-//ENPOINT http://localhost:5001/api/updatecustomer
+//ENPOINT https://interview-api-2cgt.onrender.com/api/updatecustomer
 router.put("/updatecustomer/:id", updatecustomer);
-//ENPOINT http://localhost:5001/api/daletecustomer/:id
+//ENPOINT https://interview-api-2cgt.onrender.com/api/daletecustomer/:id
 router.delete("/daletecustomer/:id", daletecustomer);
-//ENPOINT http://localhost:5001/api/addwallet
+//ENPOINT https://interview-api-2cgt.onrender.com/api/addwallet
 router.put("/addwallet", addWallet);
+
+
 module.exports = router;
