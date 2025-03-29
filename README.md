@@ -3,30 +3,30 @@
 ## 📂 ENDPOINT ทั้งหมด  
 
 ### 🧑‍💼 Customer  
-📌 https://interview-api-2cgt.onrender.com/api/createcustomer  
-📌 https://interview-api-2cgt.onrender.com/api/listcustomer  
-📌 https://interview-api-2cgt.onrender.com/api/readcustomer/id  
-📌 https://interview-api-2cgt.onrender.com/api/updatecustomer  
-📌 https://interview-api-2cgt.onrender.com/api/daletecustomer/id  
-📌 https://interview-api-2cgt.onrender.com/api/addwallet  
+📌 https://interview-api-sandy.vercel.app/api/createcustomer  
+📌 https://interview-api-sandy.vercel.app/api/listcustomer  
+📌 https://interview-api-sandy.vercel.app/api/readcustomer/id  
+📌 https://interview-api-sandy.vercel.app/api/updatecustomer  
+📌 https://interview-api-sandy.vercel.app/api/daletecustomer/id  
+📌 https://interview-api-sandy.vercel.app/api/addwallet  
 
 ---
 
 ### 💰 Payment  
-📌 https://interview-api-2cgt.onrender.com/api/payorder  
-📌 https://interview-api-2cgt.onrender.com/api/listorder  
-📌 https://interview-api-2cgt.onrender.com/api/readorder  
+📌 https://interview-api-sandy.vercel.app/api/payorder  
+📌 https://interview-api-sandy.vercel.app/api/listorder  
+📌 https://interview-api-sandy.vercel.app/api/readorder  
 
 ---
 
 ### 🔄 Transection  
-📌 https://interview-api-2cgt.onrender.com/api/createtransection  
-📌 https://interview-api-2cgt.onrender.com/api/listtransection  
+📌 https://interview-api-sandy.vercel.app/api/createtransection  
+📌 https://interview-api-sandy.vercel.app/api/listtransection  
 
 ---
 
 ### 📊 Dashboard  
-📌 https://interview-api-2cgt.onrender.com/api/dashboard  
+📌 https://interview-api-sandy.vercel.app/api/dashboard  
 
 ---
 
