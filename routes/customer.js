@@ -17,7 +17,7 @@ router.get("/listcustomer", listcustomer);
 router.get("/readcustomer/:id", readcustomer);
 //ENPOINT https://interview-api-2cgt.onrender.com/api/updatecustomer
 router.put("/updatecustomer/:id", updatecustomer);
-//ENPOINT https://interview-api-2cgt.onrender.com/api/daletecustomer/:id
+//ENPOINT https://interview-api-2cgt.onrender.com/api/daletecustomer/id
 router.delete("/daletecustomer/:id", daletecustomer);
 //ENPOINT https://interview-api-2cgt.onrender.com/api/addwallet
 router.put("/addwallet", addWallet);

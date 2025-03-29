@@ -1,0 +1,339 @@
+{
+	"info": {
+		"_postman_id": "3b6c4c02-f648-43ca-b788-257e89ff16ab",
+		"name": "Interview API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37133166"
+	},
+	"item": [
+		{
+			"name": "CreateCustomer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"pop\",\r\n    \"email\": \"pop@example.com\",\r\n    \"password\": \"EmilySafePass!\",\r\n    \"tel\": \"0856789012\",\r\n    \"rate_discount\": \"20\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://interview-api-2cgt.onrender.com/api/createcustomer",
+					"protocol": "https",
+					"host": [
+						"interview-api-2cgt",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"createcustomer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ListCustomer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://interview-api-2cgt.onrender.com/api/listcustomer",
+					"protocol": "https",
+					"host": [
+						"interview-api-2cgt",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"listcustomer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ReadCustomer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://interview-api-2cgt.onrender.com/api/readcustomer/67e69ca6cf60d9c0dae87e6d",
+					"protocol": "https",
+					"host": [
+						"interview-api-2cgt",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"readcustomer",
+						"67e69ca6cf60d9c0dae87e6d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateCustomer",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Alice Smith\",\r\n    \"email\": \"alicesmith@example.com\",\r\n    \"password\": \"test\",\r\n    \"tel\": \"0823456789\",\r\n    \"rate_discount\": \"20\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://interview-api-2cgt.onrender.com/api/updatecustomer/67e69ca6cf60d9c0dae87e6d",
+					"protocol": "https",
+					"host": [
+						"interview-api-2cgt",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"updatecustomer",
+						"67e69ca6cf60d9c0dae87e6d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteCustomer",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://interview-api-2cgt.onrender.com/api/daletecustomer/67e69cc8cf60d9c0dae87e76",
+					"protocol": "https",
+					"host": [
+						"interview-api-2cgt",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"daletecustomer",
+						"67e69cc8cf60d9c0dae87e76"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddWallet",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":\"67e69c98cf60d9c0dae87e6a\",\r\n    \"wallet_topup\":\"500\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://interview-api-2cgt.onrender.com/api/addwallet",
+					"protocol": "https",
+					"host": [
+						"interview-api-2cgt",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"addwallet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PayOrder",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"customerId\": \"67e69c98cf60d9c0dae87e6a\",\r\n    \"productName\": \"แมว\",\r\n    \"productPrice\": \"250\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://interview-api-2cgt.onrender.com/api/payorder",
+					"protocol": "https",
+					"host": [
+						"interview-api-2cgt",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"payorder"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ListOrder",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://interview-api-2cgt.onrender.com/api/listorder",
+					"protocol": "https",
+					"host": [
+						"interview-api-2cgt",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"listorder"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ReadOrder",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"customerId\":\"67e69c98cf60d9c0dae87e6a\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://interview-api-2cgt.onrender.com/api/readorder",
+					"protocol": "https",
+					"host": [
+						"interview-api-2cgt",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"readorder"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateTransection",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"โบนัสรายปี\",\r\n  \"type\": \"income\",\r\n  \"amount\": 10000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://interview-api-2cgt.onrender.com/api/createtransection",
+					"protocol": "https",
+					"host": [
+						"interview-api-2cgt",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"createtransection"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ListTransection",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://interview-api-2cgt.onrender.com/api/listtransection",
+					"protocol": "https",
+					"host": [
+						"interview-api-2cgt",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"listtransection"
+					],
+					"query": [
+						{
+							"key": "startDate",
+							"value": "2026-03-01",
+							"disabled": true
+						},
+						{
+							"key": "endDate",
+							"value": "2026-03-31",
+							"disabled": true
+						},
+						{
+							"key": "type",
+							"value": "expense",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Dashboard",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://interview-api-2cgt.onrender.com/api/dashboard",
+					"protocol": "https",
+					"host": [
+						"interview-api-2cgt",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"dashboard"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
